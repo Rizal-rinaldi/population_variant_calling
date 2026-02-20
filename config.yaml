@@ -1,0 +1,8 @@
+OUTDIR: "results_analysis/"
+ASSEMBLY: "reference/your_genome_reference.fa"
+GFF_FILE: "reference/your_annotation.gff3"
+PREFIX: "Project_Name"
+NUM_CHRS: 30
+PATHS_WITH_FILES:
+  group1: "path/to/raw_data/folder_1"
+  group2: "path/to/raw_data/folder_2"
