@@ -63,6 +63,9 @@ Ensure the following tools are available in your environment (recommended via Co
 - freebayes  
 - vcflib  
 - htslib  
+## Workflow overview
+
+![Workflow DAG](dag.png)
 
 ### 2. Configuration File
 
