@@ -75,13 +75,14 @@ This design decouples file paths and parameters from the workflow logic.
 Example configuration:
 
 ```yaml
-OUTDIR: "results_bosjava_zoo/"
-ASSEMBLY: "/path/to/Bos_taurus.ARS-UCD2.0.dna.toplevel.fa"
-GFF_FILE: "/path/to/Bos_taurus.ARS-UCD2.0.115.gff3"
-PREFIX: "Var_calling_bosjava"
+OUTDIR: "results/"
+ASSEMBLY: "/path/to/reffrence.fa"
+GFF_FILE: "/path/to/reffrence.gff3"
+PREFIX: "prefix"
 NUM_CHRS: 30
 PATHS_WITH_FILES:
-  group1: "/path/to/raw_fastq_data"
+  group1: "/path/to/raw_fastq_data1"
+  group2: "/path/to/raw_fastq_data2"
 ```
 
 
