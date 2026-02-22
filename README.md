@@ -92,7 +92,7 @@ PATHS_WITH_FILES:
 Always validate the workflow before execution:
 
 ```bash
-snakemake -n
+snakemake -np
 ```
 Local Execution
 Run the pipeline locally using a defined number of cores:
